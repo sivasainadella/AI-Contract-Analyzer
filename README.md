@@ -9,13 +9,13 @@ searchable, and actionable insights for **revenue, compliance, and legal
 teams**.
 
 ## Key Features
-- 🔍 Clause extraction (pricing, rebates, SLAs, termination, audit, data protection)
-- 🧠 RAG-based semantic search over contract text
-- 📄 Document ingestion & chunking pipeline
-- 🧱 Pluggable embedding layer (HuggingFace, OpenAI, etc.)
-- 🔌 Simple FastAPI layer for integration with CLM/CRM/revenue systems
+- Clause extraction (pricing, rebates, SLAs, termination, audit, data protection)
+-  RAG-based semantic search over contract text
+-  Document ingestion & chunking pipeline
+-  Pluggable embedding layer (HuggingFace, OpenAI, etc.)
+-  Simple FastAPI layer for integration with CLM/CRM/revenue systems
 
-## 🧠 High-Level Architecture
+##  High-Level Architecture
 
 1. **Ingestion** – Load PDF/DOCX → extract raw text  
 2. **Chunking** – Split text into semantically meaningful segments  
@@ -24,7 +24,7 @@ teams**.
 5. **RAG Pipeline** – Retrieve chunks + generate answer/summary  
 6. **Clause Layer** – Extract specific clauses (rebate, pricing, SLA, etc.)
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3.10+
 - **Frameworks:** FastAPI, Uvicorn
@@ -33,7 +33,7 @@ teams**.
 
 This repo intentionally keeps the implementation **modular and vendor-neutral** so it can be wired to any LLM / embedding provider.
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```bash
 # create and activate virtual env (optional but recommended)
